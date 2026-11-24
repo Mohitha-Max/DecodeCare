@@ -1,0 +1,29 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# JavaScript dependencies and builds
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+/decode-care/decode-care/
+/package-lock.json
+
+# Python environments and generated files
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+
+# Runtime data and local tooling
+**/uploads/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
